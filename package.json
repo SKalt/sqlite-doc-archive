@@ -1,0 +1,22 @@
+{
+  "name": "sqlite-docs-archive",
+  "version": "1.0.0",
+  "description": "an archive of the SQLite docs",
+  "main": "index.js",
+  "author": "Steven Kalt <kalt.steven@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc ./src/index.ts",
+    "dl": "node ./src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^4.1.1",
+    "tsdx": "^0.12.3",
+    "typescript": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.16"
+  }
+}
